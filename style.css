@@ -333,7 +333,7 @@ li:nth-child(5)::after,
   header div:nth-child(4) {
     justify-self: end;
 
-    width: 80%;
+    width: 100%;
   }
   .header-image {
     position: relative;
@@ -360,6 +360,9 @@ li:nth-child(5)::after,
   }
   .download-email form > input {
     min-width: 300px;
+  }
+  header {
+    padding: 0 20px !important;
   }
   .header-text h2 {
     color: #ffffff;
